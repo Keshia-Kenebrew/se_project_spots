@@ -26,6 +26,12 @@
 
 .profile__description {
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__edit-btn {
@@ -54,6 +60,13 @@
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
   }
 
   .profile__column {
@@ -64,4 +77,3 @@
     margin: 0;
     width: 100%;
   }
-}
