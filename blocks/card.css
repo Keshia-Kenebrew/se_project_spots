@@ -15,7 +15,7 @@
   justify-content: space-between;
 }
 
-.card__like-button {
+.cards__like-button {
   background-image: url(../images/heart.svg);
   width: 23px;
   height: 20px;
@@ -24,9 +24,14 @@
   opacity: 40%;
 }
 
-@media  screen and (max-width:  627px) {
+@media screen and (max-width: 627px) {
   card__image {
     height: 288px;
-}
-
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
 }

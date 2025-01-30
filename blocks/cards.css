@@ -16,5 +16,12 @@
 @media  screen and (max-width:  627px) {
 .cards__list{
   grid-template-columns: repeat(auto-fit, 288px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 }

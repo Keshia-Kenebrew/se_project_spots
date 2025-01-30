@@ -1,1 +1,19 @@
-# se_project_spots
+# Spots
+
+An image sharing site.
+
+# Description
+
+A site to share images.
+
+# Tech
+
+-HTML
+-CSS
+-Responsive Web Design
+
+# Deployment 
+
+This webpage is deployed to Github pages.
+
+- Deployment Link: 
