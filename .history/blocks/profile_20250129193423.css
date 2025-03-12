@@ -45,14 +45,7 @@
 .profile__add-btn {
   margin-left: auto;
   border: none;
-  background-color: #212121;
-  align-self: flex-end;
-  height: fit-content;
-  color: white;
-  display: flex;
-  gap: 8px;
-  border-radius: 8px;
-  padding: 18px 24px;
+  background-color: #
 }
 
 @media screen and (max-width: 627px) {
@@ -61,6 +54,7 @@
     text-align: center;
     align-items: center;
     max-width: 288px;
+    padding: 20px;
   }
 
   .profile__avatar {
@@ -78,11 +72,5 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-  }
-
-  .profile__add-btn {
-    margin: auto;
-    width: 100%;
-    justify-content: center;
   }
 }

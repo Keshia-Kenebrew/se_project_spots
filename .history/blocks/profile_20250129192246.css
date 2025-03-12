@@ -37,30 +37,20 @@
 .profile__edit-btn {
   margin-top: auto;
   background: none;
-  border: none;
-  display: flex;
-  gap: 5px;
+  border: none
 }
 
 .profile__add-btn {
   margin-left: auto;
-  border: none;
-  background-color: #212121;
-  align-self: flex-end;
-  height: fit-content;
-  color: white;
-  display: flex;
-  gap: 8px;
-  border-radius: 8px;
-  padding: 18px 24px;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 627px){
   .profile {
     flex-direction: column;
     text-align: center;
     align-items: center;
     max-width: 288px;
+    padding: 20px;
   }
 
   .profile__avatar {
@@ -78,11 +68,11 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
   }
 
+
   .profile__add-btn {
-    margin: auto;
+    margin: 0;
     width: 100%;
-    justify-content: center;
   }
-}

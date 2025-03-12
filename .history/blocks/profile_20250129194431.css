@@ -50,7 +50,7 @@
   height: fit-content;
   color: white;
   display: flex;
-  gap: 8px;
+  gap: 2px;
   border-radius: 8px;
   padding: 18px 24px;
 }
@@ -84,5 +84,6 @@
     margin: auto;
     width: 100%;
     justify-content: center;
+
   }
 }
