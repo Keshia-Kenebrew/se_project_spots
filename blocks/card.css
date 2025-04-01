@@ -3,6 +3,7 @@
 }
 
 .card__image {
+  border-radius: 8px;
   height: 413px;
   width: 100%;
   object-fit: cover;
@@ -10,12 +11,16 @@
 }
 
 .card__content {
+  margin-top: 12px
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .card__like-button {
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
   background-image: url(../images/heart.svg);
   width: 23px;
   height: 20px;
